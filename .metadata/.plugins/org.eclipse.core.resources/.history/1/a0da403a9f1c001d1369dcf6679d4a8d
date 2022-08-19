@@ -1,0 +1,21 @@
+package codedevl;
+
+import java.util.Scanner;
+
+public class j01009 {
+	public static long gt(int n) {
+		int res=1;
+		for(int i=2;i<=n;i++) {
+			res*=i;
+		}
+		return res;
+	}
+	public static void main(String[] args) {
+		long n,re=1;
+		try (Scanner sc = new Scanner(System.in)) {
+			n=sc.nextLong();
+		}
+		for(int i=2;i<=n;i++) re+=gt(i);
+		System.out.println(re);
+	}
+}

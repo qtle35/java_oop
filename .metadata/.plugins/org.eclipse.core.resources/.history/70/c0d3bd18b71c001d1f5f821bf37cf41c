@@ -1,0 +1,34 @@
+package codedevl;
+
+import java.util.Scanner;
+
+public class j01014 {
+	public static long MAX = (long) Math.pow(10, 10) * 2;
+    public static int[] check = new int[MAX + 1];
+
+    public static void initErathos() {
+        for (int i = 2; i * i <= MAX; i++) {
+            if (check[i] == 0) {
+                for (int j = i; j <= MAX; j += i) {
+                    if (check[j] == 0)
+                        check[j] = i;
+                }
+            }
+        }
+        for (int i = 2; i <= MAX; i++) {
+            if (check[i] == 0)
+                check[i] = i;
+        }
+    }
+    public static void main(String[] args) {
+        initErathos();
+        Scanner sc = new Scanner(System.in);
+        int nt = sc.nextInt();
+        long sum = 0;
+        while (t-- > 0) {
+            int n=sc.nextInt();
+            System.out.println(check[n]);
+        }
+    }
+  }
+}

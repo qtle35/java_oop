@@ -1,0 +1,25 @@
+package codedevl;
+
+import java.util.Scanner;
+
+public class j01008 {
+	public static void main(String[] args) {
+		int t,m=1;
+		Scanner sc=new Scanner(System.in);
+		t=sc.nextInt();
+		while(t-->0) {
+			int n;
+			n= sc.nextInt();
+			System.out.print("Test "+m+": ");
+			for(int i=2;i<=n;i++) {
+				int dem=0;
+				while(n%i==0) {
+					dem++;n/=i;
+				}
+				if(dem!=0) System.out.print(i+"("+dem+") ");
+			}
+			System.out.println("");
+			m++;
+		}
+	}
+}

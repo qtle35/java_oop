@@ -1,0 +1,33 @@
+package codedevl;
+
+import java.util.Scanner;
+
+public class j01013 {
+	public static boolean snt(long n) {
+		if(n<2) return false;
+		for(int i=2;i<=Math.sqrt(n);i++) {
+			if(n%i==0) return false;
+		}
+		return true;
+	}
+	public static void main(String[] args) {
+		int t;
+		Scanner sc=new Scanner(System.in);
+		t=sc.nextInt();
+		int re=0;
+		while(t-->0) {
+			int n=sc.nextInt(),sum=0;
+			for(int i=1;i<=Math.sqrt(n);i++) {
+				if(i==n/i&&snt(i)) {
+					sum+=i;
+				}
+				else {
+					if(snt(i)) sum+=i;
+					if(snt(n/i)) sum+=n/i;
+				}
+			}
+			re+=sum;
+		}
+		System.out.println(re);
+	}
+}
