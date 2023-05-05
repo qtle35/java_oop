@@ -1,27 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Tree"/>
+		<item key="selection" value="int"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="Hash"/>
-			<item value="HashSet"/>
-			<item value="inter"/>
+			<item value="int"/>
+			<item value="dispose"/>
+			<item value="boss"/>
+			<item value="setSteeringBehavior"/>
+			<item value="set"/>
+			<item value="body"/>
+			<item value="Polygon"/>
+			<item value="cam"/>
+			<item value="SpriteBatch"/>
+			<item value="dis"/>
+			<item value="black"/>
+			<item value="id"/>
+			<item value="ThiSinh"/>
+			<item value="Point4"/>
+			<item value="Point"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Tree"/>
-			<item value="uni"/>
+			<item value="Poline"/>
+			<item value="Polyline"/>
+			<item value="double"/>
+			<item value="lop"/>
+			<item value="Thisinh1"/>
+			<item value="Point"/>
+			<item value="Point4"/>
+			<item value="Point3"/>
+			<item value="P"/>
+			<item value="Point2"/>
+			<item value="Point1"/>
+			<item value="mathang1"/>
+			<item value="SV1"/>
+			<item value="class"/>
+			<item value="SV"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-374"/>
-		<item key="DIALOG_Y_ORIGIN" value="89"/>
+		<item key="DIALOG_X_ORIGIN" value="866"/>
+		<item key="DIALOG_Y_ORIGIN" value="478"/>
 		<item key="DIALOG_WIDTH" value="414"/>
-		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_HEIGHT" value="304"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="313"/>
+		<item key="DIALOG_Y_ORIGIN" value="226"/>
 	</section>
 </section>
